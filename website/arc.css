@@ -1,0 +1,72 @@
+@font-face {
+    font-family: myfont;
+    src: url(Shaka\ Pow.ttf);
+}
+h1{
+    font-family: myfont;
+}
+.header
+{
+   min-height: 100vh;
+   width: 100%;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.692)),url(onepiece.png);
+   background-position: center;
+   background-size: cover; 
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 10px;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-links a:hover{
+    color:#ea1538;
+    transition: .3s;
+}
+.character {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: mediumaquamarine;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: center;
+}
+
+.card-img-top {
+    color: rgb(0, 0, 0);
+}
+
+.card {
+    flex: 1 1 25rem;
+    border-color: rgb(209 175 91);
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-self: normal;
+
+}
